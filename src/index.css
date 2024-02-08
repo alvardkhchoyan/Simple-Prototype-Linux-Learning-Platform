@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.topic {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.lessons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lesson {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  flex: 1 1 calc(33.33% - 20px);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.lesson:hover {
+  transform: scale(1.05);
+}
+
+.lesson a {
+  text-decoration: none;
+  color: #333;
+}
+
+.lesson p {
+  margin: 0;
+}
+
+.lesson-link:hover {
+  text-decoration: underline;
+}
+
+/* ------------ */
+
+.linux-theme {
+  background-color: #282c34; /* Dark background color */
+  color: #61dafb; /* Light text color */
+}
+
+.topic {
+  background-color: #363a42; /* Darker background color for topics */
+  border: 1px solid #4d5259; /* Slightly lighter border color */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: #61dafb; /* Light blue heading color */
+}
+
+.lessons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lesson {
+  background-color: #404448; /* Darker background color for lessons */
+  border: 1px solid #52585f; /* Slightly lighter border color */
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  flex: 1 1 calc(50% - 20px);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.lesson:hover {
+  transform: scale(1.05);
+}
+
+.lesson a {
+  text-decoration: none;
+  color: #61dafb; /* Light blue link color */
+}
+
+.lesson p {
+  margin: 0;
+}
+
+.lesson-link:hover {
+  text-decoration: underline;
+} 
+
